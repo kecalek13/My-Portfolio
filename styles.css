@@ -22,3 +22,33 @@ header h1 {
     color: #fff;    
 }
 /* Konec sekce Header */
+
+main {
+    background-color: #1e1e24;
+    color: #fff;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+/* Sekce About me */
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    padding: 25px 50px;
+}
+
+.about-me h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #b8b8b8;
+}
+
+/* Konec sekce About me */
