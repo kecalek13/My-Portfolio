@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+/* Sekce Body */
+body{
+    background-color: #1e1e24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Konec sekce body */
+
 /* Sekce Header */
 header {
     display: flex;
@@ -52,3 +61,28 @@ main {
 }
 
 /* Konec sekce About me */
+
+/* Sekce Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1e1e24;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    display: flex;
+    width: 75%;
+    padding: 20px;
+    background-color: #57575c;
+    border-radius: 25px;
+}
+
+footer .copyright p {
+    margin: auto;
+    font-size: 1.5rem;
+    color: #b8b8b8;
+}
+/* Konec sekce Footer */
