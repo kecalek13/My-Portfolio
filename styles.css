@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Sekce Header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    font-family: sans-serif;
+    background-image: url("img/header-background.jpg");
+    background-size: cover;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: #fff;    
+}
+/* Konec sekce Header */
